@@ -1,2 +1,2 @@
 #!/bin/bash
-git ls-tree --full-tree -r HEAD README.md || touch README.md && echo "# Projet" > README.md
+gcc -E "$CFILE" -o c
