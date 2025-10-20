@@ -1,0 +1,19 @@
+#!/bin/bash
+CFILE="$1"  # Le premier argument passé au script est le nom du fichier C
+
+# Vérifier si le fichier existe
+if [[ ! -f "$CFILE" ]]; then
+  echo "Erreur : $CFILE introuvable !"
+  exit 1
+fi
+
+# Exécuter le préprocesseur et enregistrer le résultat dans le fichier 'c'
+gcc -E "$CFILE" -o c
+
+# Vérifier si l'exécution a réussi
+if [[ $? -eq 0 ]]; then
+  echo "Prétraitement réussi. Résultat enregistré dans 'c'."
+else
+  echo "Erreur lors du prétraitement."
+  exit 1
+fi
