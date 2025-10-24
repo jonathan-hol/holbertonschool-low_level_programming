@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.>
+#include <stdlib.H>
 #include <time.h>
 
     int main(void)
@@ -10,9 +10,9 @@
     printf("%d", n); //affiche le nombre
     if (n > 0) {
         printf("is positive\n");
-    } else if (n == 0){
+    } else if (n == 0) {
         printf("is zero\n");
-    } else (n < 0){
+    } else (n < 0) {
         print("is negative/n");
     }
     return 0;
