@@ -3,7 +3,7 @@
 /**
  * main Entry - point
  * 
- * Return: Always (0) Success
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -12,12 +12,14 @@ int main(void)
     
     for (lettre = 'a'; lettre <= 'z'; lettre++)
     {
-    putchar(lettre);
+        putchar(lettre);
     }
+
     for (lettreM = 'A'; lettreM <= 'Z'; lettreM++)
     {
         putchar(lettreM);
     }
+
     putchar('\n');
     return (0);
 }
