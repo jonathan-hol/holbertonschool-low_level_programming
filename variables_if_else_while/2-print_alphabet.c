@@ -7,13 +7,13 @@
  */
 int main(void)
 {
-    char lettre;
+	char lettre;
 
-    for (lettre = 'a'; lettre <= 'z'; lettre++)
-    {
-        putchar(lettre); 
-    }
+	for (lettre = 'a'; lettre <= 'z'; lettre++)
+	{
+		putchar(lettre); /* afficher chaque lettre */
+	}
 
-    putchar('\n'); 
-    return (0);
+	putchar('\n'); /* Ajouter un saut de ligne après l'alphabet */
+	return (0);
 }
