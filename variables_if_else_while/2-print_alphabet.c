@@ -2,16 +2,18 @@
 
 /**
  * main - Entry point
- * 
+ *
  * Return: Always 0 (Success)
  */
- int main(void)
+int main(void)
 {
     char lettre;
 
-for (lettre = 'a'; lettre <= 'z'; lettre++) {
-    putchar(lettre); // afficher chaque lettre
-}
-    putchar('\n'); // Ajouter un saut de ligne après l'alphabet
+    for (lettre = 'a'; lettre <= 'z'; lettre++)
+    {
+        putchar(lettre); 
+    }
+
+    putchar('\n'); 
     return (0);
 }
