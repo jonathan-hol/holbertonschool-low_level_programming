@@ -8,9 +8,9 @@
  */
 int _isupper(int c)
 {
-    if (c >= 'A' && c <= 'Z')
-    {
-        return (1);  /* C'est une majuscule */
-    }
-    return (0);  /* Ce n'est pas une majuscule */
+	if (c >= 'A' && c <= 'Z')
+	{
+		return (1);  /* C'est une majuscule */
+	}
+	return (0);  /* Ce n'est pas une majuscule */
 }
