@@ -1,7 +1,18 @@
-#ifndef MAIN_H
-#define MAIN_H
+#include "main.h"
+#include <stdio.h>
 
-/* Déclaration de la fonction _isupper */
-int _isupper(int c);
+/**
+ * main - check the code.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    char c;
 
-#endif /* MAIN_H */
+    c = 'A';
+    printf("%c: %d\n", c, _isupper(c));
+    c = 'a';
+    printf("%c: %d\n", c, _isupper(c));
+    return (0);
+}
