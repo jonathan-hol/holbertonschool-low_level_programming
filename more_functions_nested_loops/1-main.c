@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "1-isdigit.h"  /* Inclure l'en-tête avec la déclaration de _isdigit */
 
-int main()
+int main(void)
 {
     /* Tester la fonction _isdigit */
     printf("_isdigit('5'): %d\n", _isdigit('5'));  /* Devrait afficher 1 */
