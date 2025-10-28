@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int _isupper(int c);
+int _isdigit(int c);  /* Déclaration de la fonction _isdigit */
 
-#endif
+#endif /* MAIN_H */
