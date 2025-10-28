@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int _isdigit(int c); /* Déclaration de la fonction _isdigit */
+int mul(int a, int b); /* Déclaration de la fonction mul */
 
 #endif /* MAIN_H */
