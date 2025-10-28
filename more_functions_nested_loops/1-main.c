@@ -2,17 +2,20 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * main - Point d'entrée du programme.
  *
- * Return: Always 0.
+ * Return: Toujours 0.
  */
 int main(void)
 {
     char c;
 
     c = '0';
-    printf("%c: %d\n", c, _isdigit(c));  /* Devrait afficher 1 */
+    printf("%c: %d\n", c, _isdigit(c)); /* Teste avec un chiffre */
+
     c = 'a';
-    printf("%c: %d\n", c, _isdigit(c));  /* Devrait afficher 0 */
+    printf("%c: %d\n", c, _isdigit(c)); /* Teste avec une lettre */
+
     return (0);
 }
+
