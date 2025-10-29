@@ -2,12 +2,12 @@
 
 /**
  * mul - Multiplie deux entiers.
- * @a: Le premier entier.
- * @b: Le deuxième entier.
+ * @a: Premier entier.
+ * @b: Deuxième entier.
  *
- * Return: Le résultat de la multiplication.
+ * Return: Le produit de a et b.
  */
 int mul(int a, int b)
 {
-  return (a * b);
+	return (a * b);
 }
