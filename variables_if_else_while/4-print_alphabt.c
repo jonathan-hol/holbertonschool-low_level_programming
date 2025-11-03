@@ -5,7 +5,7 @@
 *
 * imprime l'alphabet en min sauf 'e' et 'q' en utilisant putchar
 *
-* Return: Always 0 (success)
+* Return: Always 0 (Success)
 */
 int main(void)
 {
@@ -20,6 +20,6 @@ int main(void)
 }
     putchar ('\n');
 
-    Return (0);
+    return (0);
 
 }
