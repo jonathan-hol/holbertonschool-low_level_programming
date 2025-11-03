@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /** 
-* Main - Entry point
+* main - Entry point
 *
 * Imprime l'alphabet en min sauf 'e' et 'q' en utilisant putchar
 *
